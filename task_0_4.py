@@ -1,6 +1,6 @@
-"""Task 0.4"""
+#task_0_4
 
-"""This function returns whether a value is odd or even"""
+#This function returns whether a value is odd or even.
 def even_or_odd(value):
     
     if value % 2 == 0:   
