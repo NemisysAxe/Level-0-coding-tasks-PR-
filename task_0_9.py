@@ -1,24 +1,17 @@
-#task_0_9
 
-#This function returns the vowels from a single string value
-def pvowels (string):
+def print_vowels (string):
 
-    vowels_upper = "AEIOU"
-    vowels_lower = "aeiou"
-    vowels = vowels_lower + vowels_upper
+    vowels_uppercase = "AEIOU"
+    vowels_lowercase = "aeiou"
+    vowels = vowels_lowercase + vowels_uppercase
     
     for vowel in string:
         if vowel in vowels:
-            if vowel > vowels_upper:  
-                if vowel in vowels_lower:
-                    print(vowel,end= ", ")
-            
-            #if vowel < vowels:
-               # print(vowels,end= ", ")
-
+            if vowel > vowels_uppercase:  
+                if vowel in vowels_lowercase:
+                    print(vowel,sep = "," ,end =" ")
                   
-    
-pvowels('Umuzi')
+print_vowels('Umuzi')
 
 
 

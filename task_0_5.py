@@ -1,6 +1,3 @@
-#task_0_5
-
-#Defining the variables needed to calculate the area of a triangle.
 
 def triangle_area(a, b, c):
     
@@ -13,7 +10,9 @@ def triangle_area(a, b, c):
     
     tri_area = spm2 ** 0.5
     
-    print(tri_area)
+    x = print(tri_area)
+    
+    return x
   
 
 triangle_area(3, 4, 5)
