@@ -1,7 +1,5 @@
-#task_0_6
-
-#This function returns the highest of three vaules    
-def maximum(*x):
+    
+def maximum_value(*x):
     large_num = x[0]
     
     for values in x:
@@ -10,9 +8,8 @@ def maximum(*x):
     
     return large_num
 
-#maxi_2 = maximum(1,22,3,2)
-maxi_2 = maximum(1,5,27,50)
-print(maxi_2)
+maxi_value = maximum_value(1,5,27,50)
+print(maxi_value)
 
 
 
