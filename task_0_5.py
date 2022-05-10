@@ -10,12 +10,12 @@ def triangle_area(a, b, c):
     
     tri_area = spm2 ** 0.5
     
-    x = print(tri_area)
+    x = tri_area
     
     return x
   
 
-triangle_area(3, 4, 5)
+print(triangle_area(3, 4, 5))
 
 
 
