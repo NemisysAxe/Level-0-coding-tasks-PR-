@@ -9,12 +9,12 @@ def print_common_letters (string1, string2):
              
     for word1 in string1 and string2:
         if word1 in vowels and string1 and string2:
-            print(word1, end= " ")
+            print(word1, end= ",")
     
     for word1 in string1 and string2:
         if word1 in string1 and string2:
             if word1 not in vowels:
-                print(word1)
+                print(word1, sep=",")
      
     
 print_common_letters('house','computers')
