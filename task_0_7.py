@@ -1,22 +1,22 @@
-def temp_c(x):
+def temperture_in_celsius(x):
     multiplier = 1.8
     constant = 32
-    temp_f = (x * multiplier) + constant
+    temperture_in_fahrenheit = (x * multiplier) + constant
     
-    x = (str(x) + " C" + " is" + " " + str(temp_f) + " F")
+    x = (str(x) + " C" + " is" + " " + str(temperture_in_fahrenheit) + " F")
     return x
     
-print(temp_c(11))
+print(temperture_in_celsius(11))
 
 
-def temp_f(y):
+def temperture_in_fahrenheit(y):
     multiplier = 1.8
     constant = 32
-    temp_c= (y - constant)/multiplier
+    temperture_in_celsius= (y - constant)/multiplier
         
-    z = (str(y) + " F" + " is" + " " + str(temp_c) + " C")
+    z = (str(y) + " F" + " is" + " " + str(temperture_in_celsius) + " C")
     return z
 
-print(temp_f(50))
+print(temperture_in_fahrenheit(50))
     
 
