@@ -1,34 +1,17 @@
-
 def time(t):
     hours = (t // 60) 
     minutes = (t % 60)
-    if hours == 1 and minutes == 1 :
-        print((str(hours) + " hour") + ", " + ( str(minutes) + " minute") )
+   
+    if hours <= 0 or hours == 1:
+        h = "hour" 
+    else:
+        h = "hours"
         
-    if hours == 1 and minutes == 0 :
-        print((str(hours) + " hour") + ", " + ( str(minutes) + " minutes") )
+    if minutes <= 0 or minutes == 1:
+        m = "minute"
+    else:
+        m = "minutes"
+            
+    print(str(hours) + " " + str(h) + " " + str(minutes) + " " + str(m))
     
-    if hours == 0 and minutes == 1 :
-        print((str(minutes) + " minute"))
-        
-    if hours == 0 and minutes == 0 :
-        print((str(hours) + " hours") + ", " + ( str(minutes) + " minutes") )    
-    
-    if hours == 1 and minutes > 1 :
-        print((str(hours) + " hour") + ", " + ( str(minutes) + " minutes") )
-    
-    if hours <= 1 and minutes > 1 :
-        print(( str(minutes) + " minutes"))
-    
-    if hours > 1 and minutes == 1 :
-        print((str(hours) + " hours") + ", " + ( str(minutes) + " minute") )
-    
-    if hours > 1 and minutes > 1 :
-        print((str(hours) + " hours") + ", " + ( str(minutes) + " minutes") )
-        
-
-    
-time(60)
-
-
-
+time(62)
