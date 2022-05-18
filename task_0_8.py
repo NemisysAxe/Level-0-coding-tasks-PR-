@@ -14,4 +14,4 @@ def time(t):
             
     print(str(hours) + " " + str(h) + " " + str(minutes) + " " + str(m))
     
-time(62)
+time(64)

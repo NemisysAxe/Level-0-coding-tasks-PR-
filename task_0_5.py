@@ -1,16 +1,16 @@
 
 def triangle_area(a, b, c):
     
-    spm = (a + b + c) *0.5               #constant variable = 0.5
+    semiparameter = (a + b + c) *0.5               #constant variable = 0.5
     
-    a1 = spm - a
-    b2 = spm - b
-    c1 = spm - c
-    spm2 = spm * (a1 * b2 * c1)
+    a1 = semiparameter - a
+    b2 = semiparameter - b
+    c1 = semiparameter - c
+    y = semiparameter * (a1 * b2 * c1)
     
-    tri_area = spm2 ** 0.5
+    triangle_area = y ** 0.5
     
-    x = tri_area
+    x = triangle_area
     
     return x
   

@@ -1,8 +1,6 @@
 
 def print_common_letters (string1, string2):
-                          
     strings = string1 + string2
-    
     vowels_uppercase = "AEIOU"
     vowels_lowercase = "aeiou"
     vowels = vowels_uppercase + vowels_lowercase
@@ -14,11 +12,6 @@ def print_common_letters (string1, string2):
     for word1 in string1 and string2:
         if word1 in string1 and string2:
             if word1 not in vowels:
-                print(word1, sep=",")
-     
-    
+                print(word1, sep=",", end="'")
+         
 print_common_letters('house','computers')
-
-
-
-
