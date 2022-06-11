@@ -1,7 +1,7 @@
 
 def greeting(x):
-    new_value = "Hello " + str(x) + "!"
-    print(new_value)
+    greet_person = "Hello " + str(x) + "!"
+    print(greet_person)
     
 greeting("Tsepho")
 

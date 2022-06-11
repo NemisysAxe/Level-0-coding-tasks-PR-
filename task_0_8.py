@@ -12,6 +12,6 @@ def time(t):
     else:
         m = "minutes"
             
-    print(str(hours) + " " + str(h) + " " + str(minutes) + " " + str(m))
+    print(f"{hours} {h}, {minutes} {m}")
     
 time(64)
