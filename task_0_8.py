@@ -1,6 +1,6 @@
-def time(t):
-    hours = (t // 60) 
-    minutes = (t % 60)
+def time(time_in_mins):
+    hours = (time_in_mins // 60) 
+    minutes = (time_in_mins % 60)
    
     if hours <= 0 or hours == 1:
         h = "hour" 

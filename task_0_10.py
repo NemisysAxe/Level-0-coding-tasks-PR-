@@ -1,8 +1,6 @@
 
 def print_common_letters (char1, char2):
-    #vowels_uppercase = "AEIOU"
-    #vowels_lowercase = "aeiou"
-    #vowels = vowels_uppercase + vowels_lowercase         
+         
     vowels = "AEIOU".lower()
     for word1 in char1 and char2:
         if word1 in vowels and char1 and char2:

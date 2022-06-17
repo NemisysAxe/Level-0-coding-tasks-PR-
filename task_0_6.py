@@ -1,9 +1,9 @@
-def maximum_value(*x):
-    largest_number = x[0]
+def maximum_value(*numbers):
+    largest_number = numbers[0]
     
-    for numbers in x:
-         if numbers > largest_number:
-            largest_number = numbers
+    for number in numbers:
+         if number > largest_number:
+            largest_number = number
     
     return largest_number 
 
