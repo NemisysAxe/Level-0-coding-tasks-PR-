@@ -9,6 +9,6 @@ def print_common_letters (char1, char2):
     for word1 in char1 and char2:
         if word1 in char1 and char2:
             if word1 not in vowels:
-                print(word1, sep=",", end="'")
+                print(word1,end="'")
          
 print_common_letters('house','computers')

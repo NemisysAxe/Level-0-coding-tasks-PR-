@@ -6,9 +6,9 @@ def triangle_area(height, base, length):
     height1 = semiparameter - height
     base1 = semiparameter - base
     length1 = semiparameter - length
-    y = semiparameter * (height1 * base1 * length1)
+    semiparameter_factor = semiparameter * (height1 * base1 * length1)
     
-    x = y ** 0.5
+    x = semiparameter_factor ** 0.5
     
     triangle_area = x
     
