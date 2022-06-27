@@ -3,15 +3,15 @@ def time(time_in_mins):
     minutes = (time_in_mins % 60)
    
     if hours <= 0 or hours == 1:
-        h = "hour" 
+        hours_print = "hour" 
     else:
-        h = "hours"
+        hours_print = "hours"
         
     if minutes <= 0 or minutes == 1:
-        m = "minute"
+        minutes_print = "minute"
     else:
-        m = "minutes"
+        minutes_print = "minutes"
             
-    print(f"{hours} {h}, {minutes} {m}")
+    print(f"{hours} {hours_print}, {minutes} {minutes_print}")
     
 time(64)

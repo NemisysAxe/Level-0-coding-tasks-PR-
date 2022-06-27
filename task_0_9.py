@@ -38,10 +38,11 @@ def print_vowels (word):
     for vowel in word and list_a:
         if vowel in list_a:
             print(vowel,end=",")
-                
-#print_vowels('umuzi')
 
-print_vowels("August")
+
+print('Vowels:', end= " ")                
+print_vowels('umuzi')
+#print_vowels("August")
 
 
 
