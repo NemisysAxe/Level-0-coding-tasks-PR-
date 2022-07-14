@@ -1,7 +1,6 @@
 
 def print_common_letters (char1, char2):
-    
-    phrase = "Common letters"     
+         
     vowels = "AEIOU".lower()
     for word1 in char1 and char2:
         if word1 in vowels and char1 and char2:
@@ -12,8 +11,8 @@ def print_common_letters (char1, char2):
             if word1 not in vowels:
                 print(word1,end="'")
          
-    #print_common_letters('house','computers')
+phrase = "Common letters"
     
-print("'Common letters: " , end ='') 
+print(f"{phrase}: " , end ='') 
 print_common_letters('house','computers')
 
