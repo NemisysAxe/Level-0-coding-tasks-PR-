@@ -41,8 +41,8 @@ def print_vowels (word):
 
 
 print('Vowels:', end= " ")                
-print_vowels('umuzi')
-#print_vowels("August")
+#print_vowels('umuzi')
+print_vowels("August")
 
 
 

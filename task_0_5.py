@@ -10,9 +10,9 @@ def triangle_area(height, base, length):
     
     x = semiparameter_factor ** 0.5
     
-    triangle_area = x
+    tri_area = x
     
-    return triangle_area
+    return tri_area
   
 
 print(triangle_area(3, 4, 5))

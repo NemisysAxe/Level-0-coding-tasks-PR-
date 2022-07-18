@@ -1,18 +1,14 @@
 
 def print_common_letters (char1, char2):
-         
-    vowels = "AEIOU".lower()
-    for word1 in char1 and char2:
-        if word1 in vowels and char1 and char2:
-            print(word1, end= ",")
-
-    for word1 in char1 and char2:
-        if word1 in char1 and char2:
-            if word1 not in vowels:
-                print(word1,end="'")
-         
-phrase = "Common letters"
     
+    cha1 = char1.lower()
+    cha2 = char2.lower()
+    
+    for word1 in cha1 and cha2:
+        if word1 in cha1 and cha2:
+                print(word1, end = ",")
+        
+phrase = "Common letters"   
 print(f"{phrase}: " , end ='') 
 print_common_letters('house','computers')
 
