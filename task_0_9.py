@@ -1,49 +1,26 @@
-def print_vowels (word):
-
-    word = word.lower()    
-    count_a = 0
-    count_e = 0
-    count_i = 0
-    count_o = 0
-    count_u = 0
+def search_vowels(wordz):
+    changed_word = wordz.lower()
     
-    list_a = []
+    vowel = ['a','e','i','o','u']
     
-    if "a" in word:
-        count_a = +1
-        if count_a >= 1:
-            list_a.append("a")
-                   
-    if "e" in word:
-        count_e = +1
-        if count_e >= 1:
-            list_a.append("e")
+    vowelist = " "
+    
+    for x in changed_word:
+        if x in vowel:
+            if x not in vowelist:
+                vowelist += x
+                vowelist += ","
+                continue    
+        else:
+            if x in vowelist: 
+                continue
         
-    if "i" in word:
-        count_i = +1
-        if count_i >= 1:
-            list_a.append("i")
-                    
-    if "o" in word:
-        count_o = +1
-        if count_o >= 1:
-            list_a.append("o")
+        clean_list = vowelist[:-1]
                 
-    if "u" in word:
-        count_u = +1
-        if count_u >= 1:
-            list_a.append("u")
-            
-    
-    for vowel in word and list_a:
-        if vowel in list_a:
-            print(vowel,end=",")
+    print(f"Vowels:{clean_list}" , end = " ")
 
-
-print('Vowels:', end= " ")                
-#print_vowels('umuzi')
-print_vowels("August")
-
+if __name__ == "__main__":      
+    search_vowels("August")
 
 
 
