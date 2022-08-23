@@ -1,4 +1,3 @@
-
 def print_common_letters (char1, char2):
     
     cha1 = char1.lower()
@@ -10,7 +9,6 @@ def print_common_letters (char1, char2):
         if word1 in cha1 and cha2:
              output += word1
              output += ","
-                #print(word1, end = ",")
 
     clean_list = output[:-1]     
 

@@ -6,9 +6,7 @@ def triangle_area(height, base, length):
     semi_length = semiparameter - length
     semiparameter_factor = semiparameter * (semi_height * semi_base * semi_length)
     
-    x = semiparameter_factor ** 0.5
-    
-    tri_area = x
+    tri_area = semiparameter_factor ** 0.5
     
     return tri_area
 
