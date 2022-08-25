@@ -1,13 +1,13 @@
-def print_common_letters (char1, char2):
+def print_common_letters (string_a, string_b):
     
-    cha1 = char1.lower()
-    cha2 = char2.lower()
+    string1 = string_a.lower()
+    string2 = string_b.lower()
     
     output = " "
     
-    for word1 in cha1 and cha2:
-        if word1 in cha1 and cha2 and word1 not in output:
-             output += word1
+    for char in string1 and string2:
+        if char in string1 and string2 and char not in output:
+             output += char
              output += ","
 
     clean_list = output[:-1]     
@@ -16,5 +16,7 @@ def print_common_letters (char1, char2):
     print(f"{phrase}:{clean_list} ", end ='')
 
 if __name__ == "__main__":
-    print_common_letters('house','computers')
-    
+    #print_common_letters("house","computers")
+    print_common_letters("baseball","basketball")
+    #print_common_letters("corporate", "cooperate")
+    #print_common_letters("muse", "music")

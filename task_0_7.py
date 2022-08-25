@@ -1,24 +1,12 @@
-def temperture_in_fahrenheit(value_in_celsius):
-    multiplier = 1.8
-    constant = 32
-    temperture_in_fahrenheit = (value_in_celsius * multiplier) + constant
+def celsius_to_fahrenheit(value_in_celsius):
     
-    temperture_in_fahrenheit_output = f"{temperture_in_fahrenheit} F"
+    temperture_in_fahrenheit = (value_in_celsius * 1.8) + 32
+    return temperture_in_fahrenheit
     
-    return temperture_in_fahrenheit_output
     
-print(temperture_in_fahrenheit(11))
-
-
-def temperture_in_celsius(value_in_fahrenheit):
-    multiplier = 1.8
-    constant = 32
-    temperture_in_celsius= (value_in_fahrenheit - constant)/multiplier
-        
-    temperture_in_celsius_output = f"{temperture_in_celsius} C"
+def fahrenheit_to_celsius(value_in_fahrenheit):
    
-    return temperture_in_celsius_output
-
-print(temperture_in_celsius(50))
+    temperture_in_celsius= (value_in_fahrenheit - 32)/1.8     
+    return temperture_in_celsius
     
 
