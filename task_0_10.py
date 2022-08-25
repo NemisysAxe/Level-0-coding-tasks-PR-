@@ -15,8 +15,8 @@ def print_common_letters (string_a, string_b):
     phrase = "Common letters"   
     print(f"{phrase}:{clean_list} ", end ='')
 
-if __name__ == "__main__":
-    #print_common_letters("house","computers")
-    print_common_letters("baseball","basketball")
-    #print_common_letters("corporate", "cooperate")
-    #print_common_letters("muse", "music")
+
+#print_common_letters("house","computers")
+print_common_letters("baseball","basketball")
+#print_common_letters("corporate", "cooperate")
+#print_common_letters("muse", "music")
