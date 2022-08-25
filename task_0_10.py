@@ -6,7 +6,7 @@ def print_common_letters (char1, char2):
     output = " "
     
     for word1 in cha1 and cha2:
-        if word1 in cha1 and cha2:
+        if word1 in cha1 and cha2 and word1 not in output:
              output += word1
              output += ","
 
@@ -17,4 +17,4 @@ def print_common_letters (char1, char2):
 
 if __name__ == "__main__":
     print_common_letters('house','computers')
-
+    
