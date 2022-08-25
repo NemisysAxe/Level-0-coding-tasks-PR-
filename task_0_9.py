@@ -1,26 +1,25 @@
-def search_vowels(wordz):
-    changed_word = wordz.lower()
+def search_vowels(string):
+    lowercase_string = string.lower()
     
     vowel = ['a','e','i','o','u']
     
     vowelist = " "
     
-    for x in changed_word:
-        if x in vowel:
-            if x not in vowelist:
-                vowelist += x
+    for char in lowercase_string:
+        if char in vowel:
+            if char not in vowelist:
+                vowelist += char
                 vowelist += ","
                 continue    
         else:
-            if x in vowelist: 
+            if char in vowelist: 
                 continue
         
         clean_list = vowelist[:-1]
                 
     print(f"Vowels:{clean_list}" , end = " ")
-
-if __name__ == "__main__":      
-    search_vowels("August")
+      
+search_vowels("August")
 
 
 
