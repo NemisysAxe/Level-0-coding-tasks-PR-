@@ -3,7 +3,7 @@ def temperture_in_fahrenheit(value_in_celsius):
     constant = 32
     temperture_in_fahrenheit = (value_in_celsius * multiplier) + constant
     
-    temperture_in_fahrenheit_output = f"{value_in_celsius} C is {temperture_in_fahrenheit} F"
+    temperture_in_fahrenheit_output = f"{temperture_in_fahrenheit} F"
     
     return temperture_in_fahrenheit_output
     
@@ -15,7 +15,7 @@ def temperture_in_celsius(value_in_fahrenheit):
     constant = 32
     temperture_in_celsius= (value_in_fahrenheit - constant)/multiplier
         
-    temperture_in_celsius_output = f"{value_in_fahrenheit} F is {temperture_in_celsius} C"
+    temperture_in_celsius_output = f"{temperture_in_celsius} C"
    
     return temperture_in_celsius_output
 
