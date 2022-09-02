@@ -1,19 +1,18 @@
 def print_common_letters (string_a, string_b):
-    
+
     string1 = string_a.lower()
     string2 = string_b.lower()
-    
-    output = " "
-    
+    common_char = " "
+
     for char in string1 and string2:
-        if char in string1 and string2 and char not in output:
-             output += char
-             output += ","
+        if char in string1 and string2 and char not in common_char:
+             common_char += char
+             common_char += ","
 
-    clean_list = output[:-1]     
+    remove_trailing_comma = common_char[:-1]
 
-    phrase = "Common letters"   
-    print(f"{phrase}:{clean_list} ", end ='')
+    required_phrase = "Common letters"
+    print(f"{required_phrase}:{remove_trailing_comma} ", end ='')
 
 
 #print_common_letters("house","computers")
