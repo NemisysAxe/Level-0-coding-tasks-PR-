@@ -4,7 +4,7 @@ def print_common_letters (string_a, string_b):
     string2 = string_b.lower()
     common_chars = " "
 
-    for char in string1 and string2:
+    for char in string2:
         if char in string1 and string2 and char not in common_chars:
              common_chars += char
              common_chars += ","
