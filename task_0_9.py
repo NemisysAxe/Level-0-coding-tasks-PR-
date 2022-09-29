@@ -13,7 +13,7 @@ def search_vowels(string):
 
     print(f"Vowels:{remove_trailing_comma}" , end = " ")
 
-#search_vowels("August")
+
 search_vowels("Umuzi")
 
 

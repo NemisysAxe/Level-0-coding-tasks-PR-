@@ -15,7 +15,5 @@ def print_common_letters (string_a, string_b):
     print(f"{required_phrase}:{remove_trailing_comma} ", end ='')
 
 
-#print_common_letters("house","computers")
-print_common_letters("baseball","basketball")
-#print_common_letters("corporate", "cooperate")
-#print_common_letters("muse", "music")
+print_common_letters("house","computers")
+
