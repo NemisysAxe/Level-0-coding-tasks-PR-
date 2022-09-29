@@ -1,6 +1,6 @@
-def greeting(name):
+def hello(name):
     gret_person = f"Hello {name}!"
     print(gret_person)
 
-greeting("Tshepo")
+hello("Tshepo")
 
